@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap")l;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Monoton', sans-serif;
+}
+.contact{
+  background-image: url("https://a-static.besthdwallpaper.com/playstation-console-wallpaper-2560x1600-6270_7.jpg");
+  padding-bottom: 400px;
+}
+.navbar{
+  background-color:rgba(73, 71, 71, 0.856) !important;
+}
+.reviews{
+  background-image: url("");
+}
+.navbar-brand{
+ 
+    text-decoration: none;
+  color: rgb(255, 255, 255) !important;
+}
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  color: #fff !important;
+}
+.navbar a:hover{
+  color:rgb(255, 6, 6) !important;
+}
+
+.menu_active{
+  
+  
+  border-bottom: 3px solid #fff !important;
+}
+.image {
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.centered {
+  position: absolute;
+ 
+  top: 60%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  color: rgb(255, 255, 255);
+  
+}
+.Home{
+  padding-top:16% ;
+  background-image: url("../src/images/mateo-vrbnjak-nCU4yq5xDEQ-unsplash.jpg");
+  background-size:inherit;
+ padding-bottom: 3cm;
+  
+}
+
+.Home1{
+  
+  background-image: url("https://thumbs.dreamstime.com/b/gamer-doodle-seamless-pattern-hand-drawn-elements-white-background-gadgets-wallpaper-73020603.jpg");
+
+  
+}
+.reviews{
+  background-image: url("");
+}
+.abt{
+  color: #fff;
+}
+.ml4 {
+ 
+  font-weight: 900;
+  font-size: 4.5em;
+  color: #fff;
+}
+
+
+.button {
+
+  transition-duration: 0.4s;
+  color: #db0000;
+  border-radius: 20px;
+  width: 250px;
+  height: 5ch !important;
+  background-color:#fff;
+  border: 2px solid #db0000 !important;
+}
+.brand-all{
+
+  color:  #fff;
+}
+.brand-all-1{
+
+  color:  rgb(0, 0, 0);
+}
+.footer{
+  color: #fff;
+}
+.join-1{
+  background-image:url("https://wallpapercave.com/wp/wp7610266.jpg");
+padding-bottom: 505px;
+padding-left: 100px;
+}
+.btn{
+  color:  #db0000;
+  border: 2px solid #db0000 !important;
+  background-color:#fff;
+}
+.btn:hover {
+  background-color: #db0000;
+  color:#fff;
+  border-radius: 8px !important;
+}
+.button:hover {
+  background-color: #db0000;
+  color:#fff;
+  border-radius: 8px !important;
+}
+#header .animated {
+  
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  animation-play-state:running;
+
+}
+
+@-webkit-keyframes up-down {
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down {
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+.search{
+position: relative;
+
+left: 1000px;
+}
+
+#header{
+  width: 100%;
+  height: 100vh;
+}
+.letter {
+ color: rgb(255, 0, 0); 
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
